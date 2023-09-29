@@ -3,7 +3,6 @@ PROFILE_HOME='./profiles'
 sys.path.append(PROFILE_HOME)
 from scipy.stats import norm
 import sklearn
-from model_run import *
 from seq_models import *
 from image_models import *
 
